@@ -485,7 +485,8 @@ local Slider = Tab5:CreateSlider({
    end,
 })
  
- 
+local Label = Tab4:CreateLabel("Zepeto Bundle (Girl/Boy(Body)", 76356016034708, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
 local Button = Tab4:CreateButton({
    Name = "Full Zepeto Bundle (White)",
    Callback = function()
